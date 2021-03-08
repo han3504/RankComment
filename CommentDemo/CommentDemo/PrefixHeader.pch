@@ -1,0 +1,23 @@
+//
+//  PrefixHeader.pch
+//  CommentDemo
+//
+//  Created by admin on 2021/3/8.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+#ifdef __OBJC__
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+#import "Common.h"
+#import "UIView+SDAutoLayout.h"
+#import "UIColor+Extend.h"
+#import "UITableView+SDAutoTableViewCellHeight.h"
+#import "FSCustomButton.h"
+#import "UIView+SDAutoLayout.h"
+#import "UIImageView+WebCache.h"
+
+#endif
+
+#endif /* PrefixHeader_pch */
